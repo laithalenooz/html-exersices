@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 3</title>
+</head>
+<body>
+	<!-- fieldset to add borders -->
+	<fieldset style="background-color: #f9f4c4">
+		<legend>Personal Information</legend>
+	<label for="First name">First name</label>
+	<input type="text" placeholder="Enter First name" name="First name" required>
+	<br>
+	<label for="Last name">Last name</label>
+	<input type="text" placeholder="Enter Last name" name="Last name" required>
+	<br>
+	<label for="email">Email</label>
+	<input type="email" placeholder="Email" name="email">
+	<br>
+	<form>
+	<label for="Gender">Gender</label>
+	<input type="radio" name="gender" value="Male">Male
+	<input type="radio" name="gender" value="Female">Female
+	</form>
+	</fieldset>
+	<br>
+	<fieldset style="background-color: #f9f4c4">
+	<legend><strong>Magazines</strong></legend>
+	<br>
+	<form>
+		<input type="checkbox" name="checkbox" value="Stavanger Afenblad">Stavanger Afenblad
+		<br>
+		<input type="checkbox" name="checkbox" value="Teknisk Ukeblad">Teknisk Ukeblad
+		<br>
+		<input type="checkbox" name="checkbox" value="Se og Hør">Se og Hør
+		<br>
+		<input type="checkbox" name="checkbox" value="Familien">Familien
+		<br>
+	</form>
+	</fieldset>
+	<fieldset style="background-color: #f9f4c4">
+	<legend><strong>Subscription</strong></legend>
+	
+  		<label for="Period">Period:</label>
+		<select name="Period" id="Period">
+		    <option value="6 months">6 months</option>
+		    <option value="12 months">12 months</option>
+		    <option value="18 months">18 months</option>
+		    <option value="24 months">24 months</option>
+    	</select>
+    	</fieldset>
+    	
+	<input type="submit" name="Subscribe" value="Subscribe">
+</html>
